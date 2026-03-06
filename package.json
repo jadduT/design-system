@@ -1,0 +1,33 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "description": "Design system liabrary ",
+  "homepage": "https://github.com/jadduT/design-system#readme",
+  "private": "true",
+  "workspaces": {
+    "nohoist": [
+      "**/ds-liabrary/**",
+      "**/component-liabrary/**"
+    ],
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jadduT/design-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadduT/design-system.git"
+  },
+  "license": "ISC",
+  "author": "Jaiveer H. Thakur",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1"
+  }
+}
